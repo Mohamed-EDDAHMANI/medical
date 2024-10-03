@@ -1,3 +1,79 @@
-section {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.315);
+    overflow: hidden;
+    transition: 0.7s;
+    display: block;
+}
+.container:hover{
+    width: 17%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.315);
+    color: black;
+}
+.container .logo{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url(OIP.jpg);
+    background-size: contain;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+
+
+.container .menu{
+    margin-top: 40px;
+    padding-right: 20px;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+.container .menu ul{
+    list-style: none;
+}
+.container .menu ul a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    width: 100%;
+    /* background-color: red; */
+    white-space: nowrap;
+}
+.container .menu ul li{
+    margin-bottom: 30px;
+    width: 90%;
+    transition: 0.5s;
+    padding-left: 10px;
+    padding: 10px 0px;
+    margin-left: 10px;
+    cursor: pointer;
     
 }
+.container .menu ul i{
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    font-size: 15px;
+}
+.container .menu li:hover, .active{
+    color: red;
+    background-color: blue;
+    padding: 10px 0px; 
+    border-radius: 12px;
+    padding-left: 10px;
+}
+.container:hover .logo{
+    width: 80px;
+    height: 80px;
+}
+
+
