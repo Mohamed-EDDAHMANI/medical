@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #EEE;
 
@@ -6,18 +10,29 @@ body {
 .div {
     display: grid;
     grid-template-columns: 50% 50%;
+    width: 100%;
 }
 section {
-    
-    width: 80%;
+    display: grid;
+    margin-top: 10%;
+    width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 50px;
-    gap: 10px;
+     margin-left: -68%; 
+    gap: 100px;
+    height: 50vh;
+background-color: red;
+padding: 20px 100px;
+
 }
+/* .container:hover, .section{
+    grid-template-columns: 50% 50%;
+    margin-left: -30%;
+} */
 
  .medcin {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.541);
+    width: 100%;
 
   
 } 
@@ -43,7 +58,7 @@ section {
 .form {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
  input {
    margin: 5px 0;
@@ -59,12 +74,7 @@ section {
     align-self: end;
 
 }
-=======
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 nav{
     width: 100%;
     height: 100vh;
@@ -78,7 +88,7 @@ nav{
     display: block;
 }
 .container:hover{
-    width: 17%;
+    width: 30%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.315);
     color: black;
