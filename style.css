@@ -1,3 +1,55 @@
+body {
+    background-color: #EEE;
+}
 section {
     
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 50px;
+    gap: 10px;
+}
+
+ .medcin {
+    background-color: white;
+
+  
+} 
+ .image  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+   
+}
+.medcin .image img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.medcin h1 {
+    text-align: center;
+}
+.medcin p  {
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+ input {
+   margin: 5px 0;
+   width: 100%;
+}
+.submit {
+    
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    border : none;
+    align-self: end;
+
 }
