@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 body {
     background-color: #EEE;
+
 }
 section {
     
@@ -86,7 +87,10 @@ section {
     transition: 0.7s;
 }
 
-
+nav {
+    display: flex;
+    width: 100%;
+}
 .container .menu{
     margin-top: 40px;
     padding-right: 20px;
